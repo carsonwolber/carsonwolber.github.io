@@ -18,7 +18,7 @@
 .slideshow-container {
     max-width: 400px;
     max-height: 500px;
-    position: absolute;
+    position: fixed;
     top: 50px;
     right: 250px;
   }
@@ -84,10 +84,14 @@
 }
 
 .bio{
-    width: 800px;
+    /* width: 800px;
     font-size: medium;
     line-height: 1.25;
-    left: 250px;
+    left: 250px; */
+    max-width: calc(100% - 470px); /* Adjust the maximum width to accommodate the slideshow */
+    font-size: 1.5vw;
+    line-height: 1.25;
+    margin-right: 250px; /* Add margin to avoid overlapping with the slideshow */
 }
 
 ul {
@@ -122,4 +126,12 @@ ul {
     font-size: small;
     padding: 15px;
     text-align: center;
+  }
+
+  @media screen and (max-width: 3000px) {
+    .slideshow-container {
+        max-width: 300px; /* Adjust width for smaller screens */
+        max-height: 300px; /* Adjust height proportionally */
+        right: 40px; /* Adjust right position */
+    }
   }
