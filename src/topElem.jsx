@@ -4,9 +4,9 @@ import { useNavigate } from 'react-router-dom';
 
 function TopElem({ name }) {
   return (
-    <>
-      <p>{name}</p>
-    </>
+    <div className='element'>
+      <h4>{name}</h4>
+    </div>
   )
 
 }

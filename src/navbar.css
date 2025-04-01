@@ -1,7 +1,7 @@
 .topbar {
-  background-color: aquamarine;
   width: 70vw;
   height: 20vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
