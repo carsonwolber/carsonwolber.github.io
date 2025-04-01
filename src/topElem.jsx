@@ -1,14 +1,14 @@
-import './topElem.css'
+import './TopElem.css'
 import { useNavigate } from 'react-router-dom';
 
 
-function topElem(name) {
+function TopElem({ name }) {
   return (
     <>
-
+      <p>{name}</p>
     </>
   )
 
 }
 
-export default topElem;
+export default TopElem;

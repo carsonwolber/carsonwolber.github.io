@@ -1,0 +1,7 @@
+.topbar {
+  background-color: aquamarine;
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+}

@@ -1,12 +1,12 @@
 import './navbar.css'
-import { useNavigate } from 'react-router-dom';
+import TopElem from './topElem';
 
-function navbar() {
+function Navbar() {
   return (
-    <>
-
-    </>
+    <div className='topbar'>
+      <TopElem name="About"></TopElem>
+    </div>
   )
 }
 
-export default navbar;
+export default Navbar;
