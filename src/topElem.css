@@ -27,3 +27,13 @@ h4 {
   transform-origin: bottom center;
 }
 
+.activeElement {
+  display: flex;
+  margin: 2vw;
+  position: relative;
+  border-color: #769a72;
+  border-style: solid;
+  border-width: 3px;
+  padding: 0px 25px 0px 25px;
+  border-radius: 75px;
+}

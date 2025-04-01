@@ -2,9 +2,13 @@ import './TopElem.css'
 import { useNavigate } from 'react-router-dom';
 
 
-function TopElem({ name }) {
+function TopElem({ name, active }) {
+
+
+  const elementClassName = active ? 'activeElement' : 'element';
+
   return (
-    <div className='element'>
+    <div className={elementClassName}>
       <h4>{name}</h4>
     </div>
   )

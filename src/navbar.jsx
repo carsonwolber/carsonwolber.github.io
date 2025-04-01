@@ -1,12 +1,12 @@
 import './navbar.css'
 import TopElem from './topElem';
 
-function Navbar() {
+function Navbar({ curr }) {
   return (
     <div className='topbar'>
-      <TopElem name="About" />
-      <TopElem name="Projects" />
-      <TopElem name="Writing" />
+      <TopElem name="About" active={curr == "About"} />
+      <TopElem name="Projects" active={curr == "Projects"} />
+      <TopElem name="Writing" active={curr == "Writing"} />
     </div >
   )
 }

@@ -1,6 +1,14 @@
+import './About.css'
+import Navbar from './Navbar'
+
+
 function About() {
-  return (<>
-  </>)
+  return (
+    <>
+      <div className='navbar'>
+        <Navbar curr='About' />
+      </div>
+    </>)
 }
 
 export default About;
