@@ -1,5 +1,13 @@
+import './Writing.css'
+import Navbar from './Navbar'
+
 function Writing() {
-  return (<></>)
+  return (<>
+    <div className='navbar'>
+      <Navbar curr='Writing' />
+    </div>
+
+  </>)
 }
 
 export default Writing;
