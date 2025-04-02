@@ -25,8 +25,8 @@ function About() {
           </h3>
           <br />
           <h3>
-            Lastly, the projects section serves as a more detailed supplement to my resume to show off the various
-            projects I have worked on for classes or personally.
+            Lastly, the projects section serves as a more detailed supplement to my resume to show off the various technical
+            projects I have worked on
           </h3>
         </div>
       </div>
