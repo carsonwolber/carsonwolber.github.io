@@ -26,10 +26,34 @@ function About() {
           <br />
           <h3>
             Lastly, the projects section serves as a more detailed supplement to my resume to show off the various technical
-            projects I have worked on
+            projects I have worked on.
           </h3>
         </div>
       </div>
+      <footer className='aboutPgBottom'>
+        <ul>
+          <li>
+            <a href='https://discord.com/users/1017183425314177135' target="_blank">
+              <i class="fab fa-discord icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href='https://www.linkedin.com/in/cwolber/' target="_blank">
+              <i class="fab fa-linkedin icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href='mailto:ctw54@cornell.edu' target="_blank">
+              <i class="fa fa-envelope icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href='https://www.goodreads.com/user/show/137411275-carson-wolber' target="_blank">
+              <i class="fab fa-goodreads icon"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
     </>)
 }
 
