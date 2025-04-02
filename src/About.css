@@ -6,3 +6,28 @@
   display: flex;
   justify-content: center;
 }
+
+
+.aboutPageContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+
+.aboutPageContent h3 {
+  font-weight: 500;
+}
+
+.portrait img {
+  height: 600px;
+  margin-top: 3vh;
+  margin-left: 10vw;
+}
+
+.aboutMainTxt {
+  margin-left: 2vw;
+  width: 50vw;
+  margin-top: -15vh;
+}
