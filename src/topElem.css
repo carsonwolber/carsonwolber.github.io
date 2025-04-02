@@ -1,12 +1,18 @@
 h4 {
   font-weight: 450;
   font-size: 16pt;
+  position: relative;
+  z-index: 2;
 }
 
 .element {
   display: flex;
   margin: 2vw;
   position: relative;
+  padding: 0px 25px 0px 25px;
+  border: 3px solid transparent; 
+  border-radius: 75px; 
+  overflow: visible;
 }
 
 .element::after {
@@ -27,13 +33,12 @@ h4 {
   transform-origin: bottom center;
 }
 
-.activeElement {
-  display: flex;
+.element-container {
   margin: 2vw;
   position: relative;
-  border-color: #769a72;
-  border-style: solid;
-  border-width: 3px;
-  padding: 0px 25px 0px 25px;
-  border-radius: 75px;
+  cursor: pointer;
+}
+
+.element.is-active::after {
+  display: none;
 }
